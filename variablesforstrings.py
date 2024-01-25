@@ -12,4 +12,8 @@ age = "17"
 university_name = "Habib University"
 course_name = "Computational Thinking-1"
 
-print(name, age, university_name, course_name)
+print("\nStudent Bio Data: ")
+print(f"{name}")
+print(f"{age}")
+print(f"{university_name}")
+print(f"{course_name}")
