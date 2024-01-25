@@ -32,3 +32,14 @@ print(food[:-1])
 print(food[:-2])
 print(food[:-3])
 print(food[:-4])
+
+""" Why pay a fortuneteller when you can just program your fortune yourself?
+Store the following into variables: name, number of children, partner's name, geographia location, and job title
+print your fortune like: you will be a Data Engineer in USA, and married with ABC kids"""
+
+number_of_children = "4"
+husband_name = "Kahlif Magruder"
+geographic_location = "outside the US"
+job_title = "Data Engineer"
+
+print(f"In your future you will be a {job_title}, somewhere {geographic_location} married to {husband_name} with {number_of_children} kids.")
