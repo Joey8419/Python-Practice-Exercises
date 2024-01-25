@@ -18,13 +18,15 @@ print(f"{age}")
 print(f"{university_name}")
 print(f"{course_name}")
 
-# Print the following by using one variable name only:
-food = "PIZZA"
+""" Print the following by using one variable name only:
+"PIZZA"
 PIZZA
 PIZZ
 PIZ
 PI
-P
+P """
+
+food = "PIZZA"
 
 # Print desired patterns through slicing
 print(food)
@@ -50,3 +52,22 @@ Address. Print the below mentioned message. (Hint use string concatenation) """
 email = "joey123@noneya.com"
 
 print(f"My email address is: {email}")
+
+
+""" Declare a variable called book and give it value "Think Python". Print the following message:
+"""
+book = "Think Python"
+
+print(f"I am trying to learn from the book {book}")
+
+""" Use the variables, declared in Q3 and show the details giving meaning to data.
+Student Bio Data
+Please enter name:  Aisha Batool
+Please enter age : 17
+Please enter university name :  Habib University
+Please enter course name: Computational Thinking-1"""
+
+print(f"My name is {name}")
+print(f"I am {age} years old")
+print(f"I study in {university_name}")
+print(f"I am enrolled in {course_name}")
