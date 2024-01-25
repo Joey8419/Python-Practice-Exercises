@@ -17,3 +17,18 @@ print(f"{name}")
 print(f"{age}")
 print(f"{university_name}")
 print(f"{course_name}")
+
+# Print the following by using one variable name only:
+food = "PIZZA"
+PIZZA
+PIZZ
+PIZ
+PI
+P
+
+# Print desired patterns through slicing
+print(food)
+print(food[:-1])
+print(food[:-2])
+print(food[:-3])
+print(food[:-4])
