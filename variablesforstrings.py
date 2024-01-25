@@ -43,3 +43,10 @@ geographic_location = "outside the US"
 job_title = "Data Engineer"
 
 print(f"In your future you will be a {job_title}, somewhere {geographic_location} married to {husband_name} with {number_of_children} kids.")
+
+""" Declare a variable called email & assign to it a string that represents your Email
+Address. Print the below mentioned message. (Hint use string concatenation) """
+
+email = "joey123@noneya.com"
+
+print(f"My email address is: {email}")
