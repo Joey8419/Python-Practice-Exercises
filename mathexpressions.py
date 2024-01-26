@@ -1,0 +1,62 @@
+""" Write a prpogram that takes two nubers and adds them in a new variable. print
+the result"""
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+result = num1 + num2
+
+print(result)
+
+
+""" Repeat Q1 for subtraction, multiplication, division, and modulus """
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+result1 = num1 + num2
+result2 = num1 - num2
+result3 = num1 * num2
+result4 = num1 / num2
+result5 = num1 % num2
+
+print(result1)
+print(result2)
+print(result3)
+print(result4)
+print(result5)
+
+""" Do the following using Mathematic Expressions
+a) Declare a variable and initialize the variable with some number
+b) Show the value of variable in your browser like "Initial value: 3"
+c) Add 7 to the variable
+d) Show value of variable in browser like "Value after addition is: 10"
+e) Show the remainder after dividing the variables value by 3. Output "The remainder is: 1"
+
+Initial value: 3
+value after addition: 10
+The remainder: 1
+"""
+
+# a) Declaring and initializing the variable
+var_num = 3
+# b) Show initial value in browser
+print({var_num})
+# c) Add 7 to the variable
+var_num += 7
+# d) Show value after addition
+print({var_num})
+# e) Show remainder after dividing the variables value by 3
+remainder = var_num % 3
+print({remainder})
+
+""" Cost of one movie ticket is 600 PKR. Store ticket price in a variable and calculate
+the cost of buying 5 tickets to a movie. Total cost to buy 5 tickets to a movie is 3000 PKR"""
+
+movie_ticket = 600
+
+result = 5 * movie_ticket
+
+print(result)
+
+""""""
