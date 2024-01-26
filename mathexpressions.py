@@ -95,3 +95,22 @@ Celsius_temp = (F_temp - 32) * 5/9
 
 print(f"{C_temp} is {fahrenheit_temp}")
 print(f"{F_temp} is {Celsius_temp}")
+
+
+""" Take input total marks and marks obtained by a student. Compute the percentage
+ and print the result.
+ 
+ Marks Sheet
+ Total Marks: 1200
+ Marks Obtained: 900
+ Percentage: 75% """
+
+total_marks = float(input("Enter total marks: "))
+marks_obtained = float(input("Enter marks obtained: "))
+percentage = (marks_obtained / total_marks) * 100
+
+print(f"\n Marks Sheets")
+print(f"Total Marks: {total_marks}")
+print(f"Marks Obtained: {marks_obtained}")
+print(f"Percentage: {percentage: .75f}")
+
