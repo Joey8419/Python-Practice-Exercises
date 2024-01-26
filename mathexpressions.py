@@ -59,4 +59,20 @@ result = 5 * movie_ticket
 
 print(result)
 
-""""""
+""" Take a number input from user and print it's multiplication table. (Without using
+any loops). """
+
+num_input = int(input("Enter a number: "))
+
+print(f"{num_input} * 1 = {num_input} * 1")
+print(f"{num_input} * 2 = {num_input} * 2")
+print(f"{num_input} * 3 = {num_input} * 3")
+print(f"{num_input} * 4 = {num_input} * 4")
+print(f"{num_input} * 5 = {num_input} * 5")
+print(f"{num_input} * 6 = {num_input} * 6")
+print(f"{num_input} * 7 = {num_input} * 7")
+print(f"{num_input} * 8 = {num_input} * 8")
+print(f"{num_input} * 9 = {num_input} * 9")
+print(f"{num_input} * 10 = {num_input} * 10")
+print(f"{num_input} * 11 = {num_input} * 11")
+print(f"{num_input} * 12 = {num_input} * 12")
