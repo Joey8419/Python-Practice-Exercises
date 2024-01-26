@@ -47,3 +47,14 @@ print(Sum_of_num)
 print(product_of_num)
 
 
+""" Write a program that obtains four float values from the user and displays the sum
+and the product"""
+
+num1 = 2.0
+num2 = 5.0
+num3 = 7.0
+num4 = 9.0
+
+sum_num = num1 + num2 + num3+ num4
+
+print(sum_num)
