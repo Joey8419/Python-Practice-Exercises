@@ -76,3 +76,22 @@ print(f"{num_input} * 9 = {num_input} * 9")
 print(f"{num_input} * 10 = {num_input} * 10")
 print(f"{num_input} * 11 = {num_input} * 11")
 print(f"{num_input} * 12 = {num_input} * 12")
+
+"""The Temperature Converter: It's hot out! Let's make a converter based on the steps here
+ a) Store a Celsius temperature into a variable
+ b) Convert it to Fahrenheit & output "NNC is NNF"
+ c) Now store a Fahrenheit temperature into a variable
+ d) Convert it to Celsius and output "NNF is NNC"
+ """
+
+# a) Store C temp into a variable
+C_temp = 18
+# b) Convert C to F
+fahrenheit_temp = (C_temp * 9/5) + 32
+# c) Store F temp into variable
+F_temp = 75
+# d) Convert F to C
+Celsius_temp = (F_temp - 32) * 5/9
+
+print(f"{C_temp} is {fahrenheit_temp}")
+print(f"{F_temp} is {Celsius_temp}")
