@@ -186,5 +186,18 @@ else:
 as input and shows a message based on following criteria:
 a) T > 40 then “It is too hot outside.”
 b) T > 30 then “The Weather today is Normal.”
-c) T > 20 then “Today’s Weather is cool.”
-d) T > 10 then “OMG! Today’s weather is so Cool.”"""
+c) T > 20 then “Today`s Weather is cool.”
+d) T > 10 then “OMG! Today`s weather is so Cool.”"""
+
+todays_temp = float(input("Enter the temperature for today in Celsius: "))
+
+if todays_temp > 40:
+    print("It's too hot outside.")
+elif todays_temp > 30:
+    print("The weather today is Normal.")
+elif todays_temp > 20:
+    print("Today`s Weather is cool.")
+elif todays_temp > 10:
+    print("OMG! Today`s weather is so Cool.")
+else:
+    print("Keep your behind in the house, it's cold.")
