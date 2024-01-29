@@ -116,7 +116,7 @@ Total Cost of Your Order is 4350 PKR
 Discounted Price is 3915 PKR"""
 
 item1_name = input("Name of first item: ")
-item2_name = input("Name of secone item: ")
+item2_name = input("Name of second item: ")
 price1 = float(input("What is the price of the first item: "))
 price2 = float(input("What is the price of the second item: "))
 quantity1 = int(input("What is the quantity of the first item: "))
@@ -142,3 +142,30 @@ print(f"Total Cost Of Your Order is {total_cost} PKR    ")
 if discounted_price != total_cost:
     print(f"Discounted Price is {discounted_price} PKR")
 
+
+""" Store a secret number (ranging from 1 to 10) in a variable.
+Prompt user to guess the secret number.
+a) If user guesses the same number, show “Bingo! Correct answer”.
+b) If the guessed number +1 is the secret number, show “Close enough to the
+correct answer”."""
+
+secret_num = 7
+user_guess = int(input(" Enter a number from 1 to 10: "))
+
+if user_guess == secret_num:
+    print("Bingo! Correct answer")
+elif user_guess + 1 == secret_num: 
+    print("Close enough to the correct answer")
+else:
+    print("Wrong number. Guess again")
+
+
+"""Write a program to check whether the given number is divisible by 3. Show the
+message to the user if the number is divisible by 3."""
+
+given_num = int(input("Enter given number: "))
+
+if given_num / 3:
+    print("This number is divsible by 3")
+else:
+    print("This number is NOT divisible by 3")
