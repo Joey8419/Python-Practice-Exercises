@@ -165,7 +165,7 @@ message to the user if the number is divisible by 3."""
 
 given_num = int(input("Enter given number: "))
 
-if given_num / 3:
+if given_num % 3 == 0:
     print("This number is divsible by 3")
 else:
     print("This number is NOT divisible by 3")
