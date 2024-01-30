@@ -101,3 +101,24 @@ age = int(input("Enter in your age: "))
 voteable = "Old enough" if age >= 18 else "Too young"
 
 print(voteable)
+
+
+""" Write a program that:
+a) Store correct password in a variable.
+b) Asks user to enter his/her password
+c) Validate the two passwords:
+    1. Check if user has entered password. If not, then give message "Please enter your password
+    2. Check if both passwords are the same. If they are the same show message 
+    "Correct! The password you entered matches the original password"
+    3. Show "Incorrect password" otherwise"""
+
+password = "PinkyandtheBrain"
+
+user_password = input("Please enter your password: ")
+
+if not user_password:
+    print("Please enter your password")
+elif password == user_password:
+    print("Correct! The password you entered matches the original password")
+else:
+    print("Incorrect password")
