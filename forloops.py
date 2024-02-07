@@ -83,6 +83,12 @@ for x in range(1, 21):
         print(x)
 
 
+# for loop in list
+for i in [0, 1, 2]:
+    print("meow")
+
+# another way to do the for loop above
+print("meow\n" * 3, end="")
 
 
 # Nested For loops
