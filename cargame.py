@@ -1,3 +1,4 @@
+# While loop = execute some code WHILE some condition remains true
 # Wile loop/ Conditional exercise
 
 command = ""
@@ -79,3 +80,52 @@ def meow(n):
 
 
 main()
+
+
+name = input("Enter your name: ")
+
+if name == "":
+     print("You did not enter your name")
+else:
+     print(f"Hello {name}")
+
+
+# Now rewrite the code above as a while loop
+name = input("Enter your name: ")    
+    
+while name == "":
+     print("You did not enter your name")
+     # Without this line of code the while loop becomes an infinite loop; we give the user an EXIT stategy with this line of code
+     name = input("Enter your name: ")
+
+# Once user enters name, the while loop is exited and this is printed
+print(f"Hello {name}")
+
+
+age = int(input("Enter your age: "))
+
+while age < 0:
+     print("Age can't be a negative number")
+     age = int(input("Enter your age: "))
+
+print(f"you are {age} years old")
+
+
+# Enter your favorite food
+food = input("Enter your favorite food (q to quit): ")
+
+while not food == "q":
+     print(f"You like {food}")
+     food = input("Enter your favorite food (q to quit): ")
+
+print("Bye!")
+
+
+# Using the OR operator
+num = int(input("Enter a number between 1 -10: "))
+
+while num < 1 or num > 10:
+     print(f"{num} is not valid")
+     num = int(input("Enter a number between 1 -10: "))
+
+print(f"")
